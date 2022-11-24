@@ -10,6 +10,76 @@ const Experience = () => {
 
       <div className="container experience__container">
         <div className="experience__frontend">
+          <h3>Microsoft Technologies</h3>
+          <div className="experience__content">
+            <article className='experience__details'>
+              <BsPatchCheck className='experience__details-icon'/>
+              <div>
+                <h4>A. Directory</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheck className='experience__details-icon'/>
+              <div>
+                <h4>O365</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheck className='experience__details-icon'/>
+              <div>
+                <h4>Sharepoint</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheck className='experience__details-icon'/>
+              <div>
+                <h4>MFA-Intune</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+          </div>
+        </div>
+        {/* END of Microsoft*/} 
+
+        <div className="experience__frontend">
+          <h3>Security and RMM</h3>
+          <div className="experience__content">
+            <article className='experience__details'>
+              <BsPatchCheck className='experience__details-icon'/>
+              <div>
+                <h4>Cisco VPN</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheck className='experience__details-icon'/>
+              <div>
+                <h4>Barracuda</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheck className='experience__details-icon'/>
+              <div>
+                <h4>Kaseya</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheck className='experience__details-icon'/>
+              <div>
+                <h4>ConnectWise</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+          </div>
+        </div>
+        {/* END of Security*/} 
+
+        <div className="experience__frontend">
           <h3>Frontend Development</h3>
           <div className="experience__content">
             <article className='experience__details'>
@@ -42,7 +112,8 @@ const Experience = () => {
             </article>
           </div>
         </div>
-        {/* END of FRONTEND*/} 
+          {/* END of FRONTEND*/} 
+
 
         <div className="experience__backend">
         <h3>Backend Development</h3>
@@ -77,6 +148,7 @@ const Experience = () => {
             </article>
           </div>
         </div>
+        {/* END of BAckEND*/} 
       </div>
     </section>
   )

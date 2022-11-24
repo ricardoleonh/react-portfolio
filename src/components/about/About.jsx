@@ -38,7 +38,7 @@ const About = () => {
             </article>
           </div>
 
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, assumenda laborum. Adipisci et, facilis aliquid assumenda cupiditate nemo quas deleniti!</p>
+          <p>Highly motivated bilingual service desk engineer with more than 8 years of experience in hardware, software, networking and other areas of support.Currently pursuing Azure certifications.</p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk!</a>
         </div>
